@@ -1,1 +1,12 @@
-[{"id":"58ef7a83-c797-4cd7-908d-346633539f7d","name":"Crew Cab Pickup","carIds":["348014ed-8e7a-4907-aece-00218c1f732a","fe04357b-a630-40eb-be63-afcb19774e9c","d72a4fd8-13dd-4b98-a930-507fdd9134e3"],"price":"99.94"}]
+[
+    {
+        "id": "b5257ca0-b85d-4e6c-ad66-1890207486f7",
+        "name": "Coupe",
+        "carIds": [
+            "c159316b-a557-4130-801c-9cd51d0f6679",
+            "b92d4cfb-ef4d-46bc-b54c-d58643ee5fae",
+            "419d7ec5-a8a6-4dc0-8dfd-73a1f27e295f"
+        ],
+        "price": "43.78"
+    }
+]
