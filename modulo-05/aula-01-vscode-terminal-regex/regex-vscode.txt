@@ -1,0 +1,24 @@
+regex101.com
+^\d{3}.\d{3}.\d{3}\d{2}$
+
+123.123.123-14
+321.231.321-45
+200.200.300-12
+
+replace [.-] - vazio
+
+busca ^(\w+),\s(\w+)$
+replace por {firstName:"$2",lastName:"$1"}
+
+Lacerda, Hugo
+Motta, Lia
+Silva, Xuxa
+
+\[(.*?)\]\(([http|https].*?)\)
+<a href="$2">$1</a>
+
+O [Erick Wendel](https://erickwendel.com) faz palestras e você devia segui-lo no [Twitter](http://twitter.com/erickwendel_) ou até no [IG](https://instagram.com/erickwendel_).
+
+Ah, e pode pesquisar no [Google](https://google.com) ou [Yahoo](https://yahoo.com).
+
+Vai que vai!
