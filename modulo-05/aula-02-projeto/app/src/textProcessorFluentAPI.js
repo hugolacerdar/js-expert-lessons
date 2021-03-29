@@ -29,6 +29,7 @@ class TextProcessorFluentAPI {
         // i case insensitive
 
         const matchPerson = /(?<=[contratante|contratada]:\s{1})(?!\s)(.*\n.*?)$/gmi;
+        // faz o match para encontrar a string inteira que contem os dados que precisamos
         const onlyPerson = this.#content.match(matchPerson);
         console.log('onlyPerson', onlyPerson);
         this.#content = onlyPerson;
